@@ -13,13 +13,13 @@
 ### 1. 钱包与链上交互 (`/1_wallet_and_onchain_interaction`)
 - 创建并安全备份钱包，理解助记词、公私钥体系。
 - 在Sepolia测试网进行转账、兑换等操作，熟悉Gas、区块浏览器。
-- **我的测试网地址**: [在此填入你的Sepolia钱包地址]
-- **地址活动链接**: [在此填入你的Etherscan地址链接，例如 https://sepolia.etherscan.io/address/你的地址]
+- **我的测试网地址**: [0xAb34D44588e8aFf6DC1B67CB6F49448EFF27a324]
+- **地址活动链接**: [https://sepolia.etherscan.io/address/0xAb34D44588e8aFf6DC1B67CB6F49448EFF27a324]
 
 ### 2. 智能合约测试 (`/2_smart_contract_testing`)
 - 编写并部署了一个标准的ERC20代币合约 `MyTestToken`。
-- **合约地址**: [在此填入你的合约地址]
-- **部署交易**: [在此填入你的部署交易哈希，并链接到Etherscan]
+- **合约地址**: [0x7EB2956B16b8D1ab50f39c6e279Bd1181C0b3291]
+- **部署交易**: [https://sepolia.etherscan.io/tx/0x26b29909ca9d1425420a5eab33708db79781af253405a4afb66d09b2786e63a1]
 - 进行了手工功能测试与异常测试（如余额不足转账）。
 - 使用Python + Web3.py编写自动化脚本，验证合约状态与异常行为。
 
@@ -32,7 +32,7 @@
 - `requirements.txt`: 项目Python依赖列表。
 - 脚本成功运行截图：
 
-![脚本运行成功截图](/4_automation_scripts/script_output.png)
+(/4_automation_scripts/script_output.png)
 
 ## 如何运行自动化测试
 1.  克隆本仓库: `git clone [你的仓库地址]`
